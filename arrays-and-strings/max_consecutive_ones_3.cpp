@@ -1,6 +1,7 @@
 // 1004. Max Consecutive Ones III
 // https://leetcode.com/problems/max-consecutive-ones-iii/description/
-// Difficulty: Medium
+// Difficulty: Medium#
+// Strategy: sliding window
 #include <iostream>
 #include <vector>
 
