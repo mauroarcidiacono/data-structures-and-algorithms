@@ -1,7 +1,7 @@
 // 344. Reverse String
 // https://leetcode.com/problems/reverse-string/description/
 // Difficulty: Easy
-// Strategy: two pointers
+// Strategy: two pointers.
 #include <iostream>
 #include <vector>
 
