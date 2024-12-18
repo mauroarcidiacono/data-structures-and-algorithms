@@ -12,7 +12,7 @@ using namespace std;
 class Solution {
 public:
     int maximumSum(vector<int>& nums) {
-        unordered_map<int, int> counts;
+        unordered_map<int, vector<int>> counts;
         int ans = -1;
 
         for (int n : nums) {
@@ -23,12 +23,14 @@ public:
                 sum += digit;
                 n /= 10;
             }
+            counts[sum].push_back(original_n);
+        }
 
-            if (counts.find(sum) != counts.end()) {
-                ans = max(ans, original_n + counts[sum]);
+        for (auto& [key, value_arr] : counts) {
+            if (value_arr.size() > 1) {
+                sort(value_arr.begin(), value_arr.end(), greater<int>()); // desc order
+                ans = max(ans, value_arr[0] + value_arr[1]);
             }
-
-            counts[sum] = max(counts[sum], original_n);
         }
 
         return ans;
@@ -37,8 +39,8 @@ public:
 
 int main() {
     Solution sol;
-    vector<int> nums = {18,43,36,13,7};
-    // vector<int> nums = {10,12,19,14};
+    // vector<int> nums = {18,43,36,13,7};
+    vector<int> nums = {10,12,19,14};
     cout << sol.maximumSum(nums) << endl;
     return 0;
 }
