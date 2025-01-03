@@ -58,4 +58,6 @@ int main() {
     n4->next = n5;
 
     sol.middleNode(head);
+
+    return 0;
 }

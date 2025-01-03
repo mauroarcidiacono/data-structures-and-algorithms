@@ -55,4 +55,6 @@ int main() {
     n3->next = n1;
 
     sol.hasCycle(head);
+
+    return 0;
 }
