@@ -1,6 +1,6 @@
 // 739. Daily Temperatures
 // https://leetcode.com/problems/daily-temperatures/description/
-// Difficulty: Medium.
+// Difficulty: Medium
 // Strategy: monotonic stack.
 #include <iostream>
 #include <vector>

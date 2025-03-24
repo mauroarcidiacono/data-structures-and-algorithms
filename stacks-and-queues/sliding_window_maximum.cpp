@@ -1,6 +1,6 @@
 // 239. Sliding Window Maximum
 // https://leetcode.com/problems/sliding-window-maximum/description/
-// Difficulty: Hard.
+// Difficulty: Hard
 // Strategy: monotonic stack.
 #include <iostream>
 #include <vector>
