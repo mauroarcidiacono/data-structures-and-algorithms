@@ -1,7 +1,7 @@
 # 98. Validate Binary Search Tree
 # https://leetcode.com/problems/validate-binary-search-tree/
 # Difficulty: Medium
-# Strategy: DFS + dynamic bounds propagation
+# Strategy: DFS + dynamic bounds propagation.
 from typing import Optional
 
 # Definition for a binary tree node.

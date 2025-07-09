@@ -1,7 +1,7 @@
 # 530. Minimum Absolute Difference in BST
 # https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/
 # Difficulty: Easy
-# Strategy: in order DFS traversal
+# Strategy: in order DFS traversal.
 from typing import Optional
 
 # Definition for a binary tree node.

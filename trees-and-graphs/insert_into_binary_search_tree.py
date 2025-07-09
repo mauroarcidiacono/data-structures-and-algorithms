@@ -1,7 +1,7 @@
 # 701. Insert into a Binary Search Tree
 # https://leetcode.com/problems/insert-into-a-binary-search-tree/
 # Difficulty: Medium
-# Strategy: DFS + guided structural recursion using the BST invariant
+# Strategy: DFS + guided structural recursion using the BST invariant.
 from typing import Optional
 import utils
 
