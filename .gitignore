@@ -33,3 +33,62 @@
 
 # vscode
 .vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and PyCharm config
+.vscode/
+.idea/
+
+# Testing artifacts
+.coverage
+.cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# dotenv
+.env
+.env.*
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Optional: mypy & pyright
+.mypy_cache/
+.pyright/
+
+# Optional: Pylint
+.pylint.d/
